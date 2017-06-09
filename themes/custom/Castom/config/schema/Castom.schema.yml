@@ -1,5 +1,0 @@
-# Schema for the configuration files of the Bartik theme.
-
-Castom.settings:
-  type: theme_settings
-  label: 'Castom settings'
