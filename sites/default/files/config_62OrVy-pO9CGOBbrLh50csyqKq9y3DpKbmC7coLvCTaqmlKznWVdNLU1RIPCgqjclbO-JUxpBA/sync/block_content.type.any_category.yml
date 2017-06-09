@@ -1,0 +1,8 @@
+uuid: 1b1d6f87-d571-44c5-b98b-efe04303619e
+langcode: en
+status: true
+dependencies: {  }
+id: any_category
+label: 'Any CATEGORY'
+revision: 0
+description: ''

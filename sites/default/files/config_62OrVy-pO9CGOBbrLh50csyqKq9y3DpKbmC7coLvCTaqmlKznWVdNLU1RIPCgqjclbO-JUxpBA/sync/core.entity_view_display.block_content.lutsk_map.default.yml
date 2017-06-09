@@ -1,0 +1,30 @@
+uuid: f68c092e-bc89-44f8-85b5-8a5ee2b57c9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.lutsk_map
+    - field.field.block_content.lutsk_map.body
+    - field.field.block_content.lutsk_map.field_lutsk_m
+  module:
+    - text
+id: block_content.lutsk_map.default
+targetEntityType: block_content
+bundle: lutsk_map
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_lutsk_m:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden: {  }

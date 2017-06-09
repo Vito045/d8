@@ -1,0 +1,31 @@
+uuid: e4e44701-600c-4279-aa11-7e0e31272107
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:lutsk_map:0fa1a8ee-8957-4e3f-bfef-2abebd4b2342'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: lutskmap
+theme: bartik
+region: footer_first
+weight: 0
+provider: null
+plugin: 'block_content:0fa1a8ee-8957-4e3f-bfef-2abebd4b2342'
+settings:
+  id: 'block_content:0fa1a8ee-8957-4e3f-bfef-2abebd4b2342'
+  label: LutskMap
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

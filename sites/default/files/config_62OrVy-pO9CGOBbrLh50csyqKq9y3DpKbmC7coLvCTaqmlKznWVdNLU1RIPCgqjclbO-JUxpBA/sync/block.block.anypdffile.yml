@@ -1,0 +1,25 @@
+uuid: d41e1c5b-32a7-49db-93a0-df59aab25d72
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:any_pdf_file:f6dc8978-0db7-4249-952c-2fd5ed0f2091'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: anypdffile
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:f6dc8978-0db7-4249-952c-2fd5ed0f2091'
+settings:
+  id: 'block_content:f6dc8978-0db7-4249-952c-2fd5ed0f2091'
+  label: 'any pdf file'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 8c56a383-1d4e-4b5c-9b41-2c67ece322fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_pdf
+    - field.storage.block_content.field_pdf1
+id: block_content.any_pdf.field_pdf1
+field_name: field_pdf1
+entity_type: block_content
+bundle: any_pdf
+label: PDF1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 6f010299-12c3-42ce-972e-b0a7d56a52d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.last_content
+    - field.storage.block_content.field_last_content
+id: block_content.last_content.field_last_content
+field_name: field_last_content
+entity_type: block_content
+bundle: last_content
+label: 'Last content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

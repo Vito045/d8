@@ -1,0 +1,38 @@
+uuid: e1aa2c4f-eded-410d-b0cf-26311e276e5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_image_before_ne
+    - node.type.blog
+  module:
+    - image
+id: node.blog.field_image_before_ne
+field_name: field_image_before_ne
+entity_type: node
+bundle: blog
+label: 'Image before news'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: 33ec830c-a15d-49fb-b84e-c863e5c83524
+    alt: ''
+    title: ''
+    width: 600
+    height: 400
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

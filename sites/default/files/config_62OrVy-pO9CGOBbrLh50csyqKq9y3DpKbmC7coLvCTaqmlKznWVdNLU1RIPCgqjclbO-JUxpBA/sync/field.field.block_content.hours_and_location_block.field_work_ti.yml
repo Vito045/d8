@@ -1,0 +1,21 @@
+uuid: d18ae5e1-5f98-4748-b2e9-1f9259aaea27
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hours_and_location_block
+    - field.storage.block_content.field_work_ti
+  module:
+    - text
+id: block_content.hours_and_location_block.field_work_ti
+field_name: field_work_ti
+entity_type: block_content
+bundle: hours_and_location_block
+label: 'Work Time'
+description: '9:00-20:00'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

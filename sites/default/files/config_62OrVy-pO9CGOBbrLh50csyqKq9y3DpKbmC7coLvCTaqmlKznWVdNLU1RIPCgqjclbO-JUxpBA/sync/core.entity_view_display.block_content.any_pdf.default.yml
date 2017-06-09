@@ -1,0 +1,48 @@
+uuid: 200f2ef2-37ea-4dfc-9c1c-d270a6f40a25
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_pdf
+    - field.field.block_content.any_pdf.body
+    - field.field.block_content.any_pdf.field_hh
+    - field.field.block_content.any_pdf.field_pdf
+    - field.field.block_content.any_pdf.field_pdf1
+  module:
+    - file
+    - text
+id: block_content.any_pdf.default
+targetEntityType: block_content
+bundle: any_pdf
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_hh:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_pdf:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_pdf1:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

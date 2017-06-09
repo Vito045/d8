@@ -1,0 +1,9 @@
+uuid: 44fd968b-cba0-4998-9185-25b146360c5a
+langcode: en
+status: true
+dependencies: {  }
+name: Categoty
+vid: categoty
+description: ''
+hierarchy: 0
+weight: 0

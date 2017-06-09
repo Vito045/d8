@@ -1,0 +1,28 @@
+uuid: 2ca08ac2-d6f2-4f7f-9f8e-8a8a9ac6a152
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.last_content
+    - field.storage.block_content.field_texon
+    - taxonomy.vocabulary.categoty
+id: block_content.last_content.field_texon
+field_name: field_texon
+entity_type: block_content
+bundle: last_content
+label: texon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoty: categoty
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: 6845659e-89e2-4677-8b42-13cc8b830e4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hours_and_location_block
+    - field.storage.block_content.field_pdfd
+id: block_content.hours_and_location_block.field_pdfd
+field_name: field_pdfd
+entity_type: block_content
+bundle: hours_and_location_block
+label: Pdf
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

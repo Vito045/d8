@@ -1,0 +1,47 @@
+uuid: d86ac984-eafb-46dd-bb79-355376df8cec
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.my_text
+    - field.field.block_content.my_text.body
+    - field.field.block_content.my_text.field_any_text
+    - field.field.block_content.my_text.field_image
+  module:
+    - image
+    - link
+    - text
+id: block_content.my_text.default
+targetEntityType: block_content
+bundle: my_text
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_any_text:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_image:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

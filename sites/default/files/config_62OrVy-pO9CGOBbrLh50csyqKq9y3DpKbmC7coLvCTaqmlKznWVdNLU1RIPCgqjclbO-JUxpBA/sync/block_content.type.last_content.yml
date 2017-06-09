@@ -1,0 +1,8 @@
+uuid: af18a350-8f3c-4dc5-8304-349919b06a93
+langcode: en
+status: true
+dependencies: {  }
+id: last_content
+label: 'Last content'
+revision: 0
+description: ''

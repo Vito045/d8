@@ -1,0 +1,27 @@
+uuid: df7057cc-04a4-4687-a3ac-502ff87bb847
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_pdf_file
+    - field.storage.block_content.field_thispdf
+  module:
+    - file
+id: block_content.any_pdf_file.field_thispdf
+field_name: field_thispdf
+entity_type: block_content
+bundle: any_pdf_file
+label: pdf
+description: "file:///var/www/d8/sites/default/files/guid.pdf\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

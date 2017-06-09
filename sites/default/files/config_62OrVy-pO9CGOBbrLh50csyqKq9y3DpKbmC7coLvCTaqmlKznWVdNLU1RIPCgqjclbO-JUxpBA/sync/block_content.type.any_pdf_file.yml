@@ -1,0 +1,8 @@
+uuid: aa304473-f835-4a79-a823-9bc16fb9d910
+langcode: en
+status: true
+dependencies: {  }
+id: any_pdf_file
+label: 'Any pdf file'
+revision: 0
+description: ''

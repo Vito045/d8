@@ -1,0 +1,8 @@
+uuid: 6ad41b9a-bd16-4553-b592-be3c02f806c6
+langcode: en
+status: true
+dependencies: {  }
+id: lutsk_map
+label: 'Lutsk Map'
+revision: 0
+description: ''

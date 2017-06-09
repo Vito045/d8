@@ -1,0 +1,31 @@
+uuid: 8e2a7945-4972-4424-b524-17f90caf7a92
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:my_text:1f17739f-e09c-4609-bd98-afb9719e4758'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: text
+theme: bartik
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:1f17739f-e09c-4609-bd98-afb9719e4758'
+settings:
+  id: 'block_content:1f17739f-e09c-4609-bd98-afb9719e4758'
+  label: CustomText
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

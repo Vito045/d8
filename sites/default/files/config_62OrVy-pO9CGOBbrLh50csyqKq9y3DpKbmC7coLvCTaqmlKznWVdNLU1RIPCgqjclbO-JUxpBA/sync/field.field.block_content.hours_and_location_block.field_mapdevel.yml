@@ -1,0 +1,21 @@
+uuid: f10dd9d4-ce03-42af-9857-1039b009f8eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hours_and_location_block
+    - field.storage.block_content.field_mapdevel
+  module:
+    - text
+id: block_content.hours_and_location_block.field_mapdevel
+field_name: field_mapdevel
+entity_type: block_content
+bundle: hours_and_location_block
+label: Map
+description: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.2920619403008!2d25.315402315151434!3d50.71452057618381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4725997e35f529e9%3A0xeba249b67a64b0a9!2sInternetDevels!5e0!3m2!1suk!2sua!4v1496250842316" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

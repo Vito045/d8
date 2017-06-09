@@ -1,0 +1,62 @@
+uuid: 73fd46a0-6315-458e-a804-658c390ec808
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_category
+    - field.field.block_content.any_category.body
+    - field.field.block_content.any_category.field_any_con
+    - field.field.block_content.any_category.field_content_
+    - field.field.block_content.any_category.field_tex
+  module:
+    - text
+id: block_content.any_category.default
+targetEntityType: block_content
+bundle: any_category
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_any_con:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_content_:
+    weight: 29
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_tex:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

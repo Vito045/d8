@@ -1,0 +1,31 @@
+uuid: b3ebcf62-9552-4ff2-a260-8417b0ea4926
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_pdf_file
+    - field.field.block_content.any_pdf_file.body
+    - field.field.block_content.any_pdf_file.field_thispdf
+  module:
+    - file
+    - text
+id: block_content.any_pdf_file.default
+targetEntityType: block_content
+bundle: any_pdf_file
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_thispdf:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden: {  }

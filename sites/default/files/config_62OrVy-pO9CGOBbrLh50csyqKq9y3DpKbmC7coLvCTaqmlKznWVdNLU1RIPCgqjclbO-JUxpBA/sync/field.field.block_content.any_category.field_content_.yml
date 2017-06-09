@@ -1,0 +1,21 @@
+uuid: b904ee0f-e366-43c6-8db7-7aee7b3d58db
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_category
+    - field.storage.block_content.field_content_
+id: block_content.any_category.field_content_
+field_name: field_content_
+entity_type: block_content
+bundle: any_category
+label: CONTENT\
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

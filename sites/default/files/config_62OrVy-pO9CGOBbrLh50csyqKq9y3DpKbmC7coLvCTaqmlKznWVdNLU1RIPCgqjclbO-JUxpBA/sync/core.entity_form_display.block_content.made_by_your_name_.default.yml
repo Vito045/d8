@@ -1,0 +1,32 @@
+uuid: 48ef95cb-b4bc-4d32-83df-05ca7822ed98
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made_by_your_name_
+    - field.field.block_content.made_by_your_name_.body
+  module:
+    - text
+id: block_content.made_by_your_name_.default
+targetEntityType: block_content
+bundle: made_by_your_name_
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

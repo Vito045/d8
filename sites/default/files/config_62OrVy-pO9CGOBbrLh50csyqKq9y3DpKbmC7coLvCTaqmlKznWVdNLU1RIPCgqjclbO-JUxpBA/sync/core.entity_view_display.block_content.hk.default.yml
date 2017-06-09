@@ -1,0 +1,31 @@
+uuid: 978c6264-e6f0-4a7c-83e5-3a05d5487580
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hk
+    - field.field.block_content.hk.body
+    - field.field.block_content.hk.field_texbterm
+  module:
+    - text
+id: block_content.hk.default
+targetEntityType: block_content
+bundle: hk
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_texbterm:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden: {  }

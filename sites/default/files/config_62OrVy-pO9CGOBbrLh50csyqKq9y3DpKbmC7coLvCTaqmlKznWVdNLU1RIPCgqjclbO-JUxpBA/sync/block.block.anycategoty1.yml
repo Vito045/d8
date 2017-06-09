@@ -1,0 +1,25 @@
+uuid: dbba3737-eb87-4b54-acac-25fabcab1008
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:any_category:1c277a61-c69e-4d1c-91f9-d1c9fc92d43b'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: anycategoty1
+theme: bartik
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:1c277a61-c69e-4d1c-91f9-d1c9fc92d43b'
+settings:
+  id: 'block_content:1c277a61-c69e-4d1c-91f9-d1c9fc92d43b'
+  label: 'Any categoty1'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

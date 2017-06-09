@@ -1,0 +1,21 @@
+uuid: 230ef275-5fe4-49c5-8dfa-5486e117c95b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_catego
+    - taxonomy.vocabulary.categoty
+id: taxonomy_term.categoty.field_catego
+field_name: field_catego
+entity_type: taxonomy_term
+bundle: categoty
+label: category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

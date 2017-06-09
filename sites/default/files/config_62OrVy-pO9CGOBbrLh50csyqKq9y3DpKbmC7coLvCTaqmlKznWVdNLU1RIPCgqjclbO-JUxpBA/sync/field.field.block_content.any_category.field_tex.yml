@@ -1,0 +1,28 @@
+uuid: 60bc1840-22c4-4150-9bda-f9a380218f53
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_category
+    - field.storage.block_content.field_tex
+    - taxonomy.vocabulary.categoty
+id: block_content.any_category.field_tex
+field_name: field_tex
+entity_type: block_content
+bundle: any_category
+label: tex
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoty: categoty
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

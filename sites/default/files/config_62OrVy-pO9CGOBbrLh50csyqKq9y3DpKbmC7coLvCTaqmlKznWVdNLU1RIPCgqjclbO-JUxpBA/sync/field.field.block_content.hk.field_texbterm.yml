@@ -1,0 +1,28 @@
+uuid: 42b60516-2daa-49ed-aca4-e6305a1b7208
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hk
+    - field.storage.block_content.field_texbterm
+    - taxonomy.vocabulary.categoty
+id: block_content.hk.field_texbterm
+field_name: field_texbterm
+entity_type: block_content
+bundle: hk
+label: texbterm
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      categoty: categoty
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,21 @@
+uuid: df3584ae-d2b3-4b89-90a3-c099cbd105eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.lutsk_map
+    - field.storage.block_content.field_lutsk_m
+  module:
+    - text
+id: block_content.lutsk_map.field_lutsk_m
+field_name: field_lutsk_m
+entity_type: block_content
+bundle: lutsk_map
+label: 'Lutsk Map'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

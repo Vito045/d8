@@ -1,0 +1,41 @@
+uuid: 548f054e-dc00-4354-8d8d-445dcc21d089
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.lutsk_map
+    - field.field.block_content.lutsk_map.body
+    - field.field.block_content.lutsk_map.field_lutsk_m
+  module:
+    - text
+id: block_content.lutsk_map.default
+targetEntityType: block_content
+bundle: lutsk_map
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_lutsk_m:
+    weight: 27
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

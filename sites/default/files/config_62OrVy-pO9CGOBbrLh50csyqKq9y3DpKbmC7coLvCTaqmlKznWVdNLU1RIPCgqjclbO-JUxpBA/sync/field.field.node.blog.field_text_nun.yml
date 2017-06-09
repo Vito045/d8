@@ -1,0 +1,21 @@
+uuid: 68916de2-1add-4807-bb3a-3998f1d78438
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_text_nun
+    - node.type.blog
+  module:
+    - text
+id: node.blog.field_text_nun
+field_name: field_text_nun
+entity_type: node
+bundle: blog
+label: 'text nun'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+uuid: fcc18b4c-3576-4db6-9288-078a6ebd727e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_s_online
+    - field.field.block_content.who_s_online.body
+  module:
+    - text
+id: block_content.who_s_online.default
+targetEntityType: block_content
+bundle: who_s_online
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

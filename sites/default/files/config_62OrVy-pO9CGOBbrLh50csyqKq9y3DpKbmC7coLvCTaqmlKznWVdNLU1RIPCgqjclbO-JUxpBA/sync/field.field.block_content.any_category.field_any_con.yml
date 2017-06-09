@@ -1,0 +1,28 @@
+uuid: 23fd83e2-2904-4b45-9662-930af6da2447
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_category
+    - field.storage.block_content.field_any_con
+    - node.type.blog
+id: block_content.any_category.field_any_con
+field_name: field_any_con
+entity_type: block_content
+bundle: any_category
+label: 'Any cont'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      blog: blog
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

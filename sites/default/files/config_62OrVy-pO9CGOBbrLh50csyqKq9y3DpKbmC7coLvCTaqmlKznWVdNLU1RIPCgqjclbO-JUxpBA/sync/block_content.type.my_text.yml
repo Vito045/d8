@@ -1,0 +1,8 @@
+uuid: dc18908e-aefc-4876-afed-3bbe840f8f6a
+langcode: en
+status: true
+dependencies: {  }
+id: my_text
+label: 'My Text'
+revision: 0
+description: Text

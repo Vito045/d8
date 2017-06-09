@@ -1,0 +1,32 @@
+uuid: 10f823e2-e59b-471b-8b7f-3f792742f062
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - user
+    - views
+  theme:
+    - bartik
+id: views_block__who_s_online_who_s_online_block
+theme: bartik
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

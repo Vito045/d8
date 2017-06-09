@@ -1,0 +1,22 @@
+uuid: 0deec4ae-20ea-433d-8f74-199c4f2b024b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hours_and_location_block
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.hours_and_location_block.body
+field_name: body
+entity_type: block_content
+bundle: hours_and_location_block
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

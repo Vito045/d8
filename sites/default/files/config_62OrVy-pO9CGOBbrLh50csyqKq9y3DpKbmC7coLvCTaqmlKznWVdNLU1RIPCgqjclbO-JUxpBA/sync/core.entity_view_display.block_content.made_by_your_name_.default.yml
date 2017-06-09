@@ -1,0 +1,22 @@
+uuid: 81ad798a-ede8-4319-9828-5d763d10d097
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.made_by_your_name_
+    - field.field.block_content.made_by_your_name_.body
+  module:
+    - text
+id: block_content.made_by_your_name_.default
+targetEntityType: block_content
+bundle: made_by_your_name_
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

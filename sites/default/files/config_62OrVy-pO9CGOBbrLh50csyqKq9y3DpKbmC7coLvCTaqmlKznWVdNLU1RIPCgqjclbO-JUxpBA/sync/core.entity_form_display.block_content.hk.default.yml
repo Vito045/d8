@@ -1,0 +1,42 @@
+uuid: 0d465516-7c2e-46b1-b6fc-b23665f25270
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hk
+    - field.field.block_content.hk.body
+    - field.field.block_content.hk.field_texbterm
+  module:
+    - text
+id: block_content.hk.default
+targetEntityType: block_content
+bundle: hk
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_texbterm:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

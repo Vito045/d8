@@ -1,0 +1,32 @@
+uuid: a734db75-b10a-46c9-96bf-1bfa35698b12
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_s_online
+    - field.field.block_content.who_s_online.body
+  module:
+    - text
+id: block_content.who_s_online.default
+targetEntityType: block_content
+bundle: who_s_online
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

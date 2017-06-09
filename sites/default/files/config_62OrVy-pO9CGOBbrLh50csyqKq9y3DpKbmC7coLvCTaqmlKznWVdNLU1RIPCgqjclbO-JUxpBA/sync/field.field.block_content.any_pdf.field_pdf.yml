@@ -1,0 +1,21 @@
+uuid: d7521c66-5bca-4a9e-bf73-ec780f11ffb3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.any_pdf
+    - field.storage.block_content.field_pdf
+  module:
+    - text
+id: block_content.any_pdf.field_pdf
+field_name: field_pdf
+entity_type: block_content
+bundle: any_pdf
+label: pdf
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

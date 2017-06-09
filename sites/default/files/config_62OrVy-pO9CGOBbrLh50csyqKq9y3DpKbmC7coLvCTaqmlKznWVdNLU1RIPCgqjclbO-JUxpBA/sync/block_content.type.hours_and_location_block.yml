@@ -1,0 +1,8 @@
+uuid: 3f4a3bef-7426-4823-9af8-068301935437
+langcode: en
+status: true
+dependencies: {  }
+id: hours_and_location_block
+label: 'Hours and location block'
+revision: 0
+description: ''

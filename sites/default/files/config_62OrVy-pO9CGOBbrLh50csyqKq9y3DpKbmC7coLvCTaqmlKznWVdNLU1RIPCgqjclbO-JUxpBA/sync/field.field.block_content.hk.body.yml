@@ -1,0 +1,22 @@
+uuid: bd699e32-33d6-4827-a6ef-7282fc65a9a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hk
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.hk.body
+field_name: body
+entity_type: block_content
+bundle: hk
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

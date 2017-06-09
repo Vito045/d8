@@ -1,0 +1,21 @@
+uuid: 051a56db-55fc-4205-8c6f-432c0a190118
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.hours_and_location_block
+    - field.storage.block_content.field_map
+  module:
+    - options
+id: block_content.hours_and_location_block.field_map
+field_name: field_map
+entity_type: block_content
+bundle: hours_and_location_block
+label: Map
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

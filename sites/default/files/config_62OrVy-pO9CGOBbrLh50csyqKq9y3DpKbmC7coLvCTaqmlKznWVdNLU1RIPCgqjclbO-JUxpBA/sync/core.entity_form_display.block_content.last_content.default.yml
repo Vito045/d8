@@ -1,0 +1,52 @@
+uuid: bb3c0c95-7dfa-4610-ace5-1a592874ce7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.last_content
+    - field.field.block_content.last_content.body
+    - field.field.block_content.last_content.field_last_content
+    - field.field.block_content.last_content.field_texon
+  module:
+    - text
+id: block_content.last_content.default
+targetEntityType: block_content
+bundle: last_content
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_last_content:
+    weight: 27
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_texon:
+    weight: 28
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

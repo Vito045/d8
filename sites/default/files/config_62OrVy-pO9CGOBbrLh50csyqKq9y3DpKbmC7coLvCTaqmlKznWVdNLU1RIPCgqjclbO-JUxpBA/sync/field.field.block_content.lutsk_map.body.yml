@@ -1,0 +1,22 @@
+uuid: 3b16813a-39e4-4a31-bd53-6d4d5e510342
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.lutsk_map
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.lutsk_map.body
+field_name: body
+entity_type: block_content
+bundle: lutsk_map
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary
