@@ -1,7 +1,7 @@
 <?php
 
-/* core/themes/classy/templates/navigation/menu-local-task.html.twig */
-class __TwigTemplate_6c53c26dd83d05688daacd29a2e718e7cb3829ca777a8e8e1781b3b3989c7030 extends Twig_Template
+/* {# inline_template_start #}Rate - {{ field_rate }} */
+class __TwigTemplate_6023ce71d8471d507c14cc27cd373c790b76d2894219b3d04e5bad74315777c0 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -39,18 +39,14 @@ class __TwigTemplate_6c53c26dd83d05688daacd29a2e718e7cb3829ca777a8e8e1781b3b3989
             throw $e;
         }
 
-        // line 17
-        echo "<li";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["attributes"]) ? $context["attributes"] : null), "addClass", array(0 => (((isset($context["is_active"]) ? $context["is_active"] : null)) ? ("is-active") : (""))), "method"), "html", null, true));
-        echo ">";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["link"]) ? $context["link"] : null), "html", null, true));
-        echo "</li>
-";
+        // line 1
+        echo "Rate - ";
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["field_rate"]) ? $context["field_rate"] : null), "html", null, true));
     }
 
     public function getTemplateName()
     {
-        return "core/themes/classy/templates/navigation/menu-local-task.html.twig";
+        return "{# inline_template_start #}Rate - {{ field_rate }}";
     }
 
     public function isTraitable()
@@ -60,28 +56,11 @@ class __TwigTemplate_6c53c26dd83d05688daacd29a2e718e7cb3829ca777a8e8e1781b3b3989
 
     public function getDebugInfo()
     {
-        return array (  43 => 17,);
+        return array (  43 => 1,);
     }
 
     public function getSource()
     {
-        return "{#
-/**
- * @file
- * Theme override for a local task link.
- *
- * Available variables:
- * - attributes: HTML attributes for the wrapper element.
- * - is_active: Whether the task item is an active tab.
- * - link: A rendered link element.
- *
- * Note: This template renders the content for each task item in
- * menu-local-tasks.html.twig.
- *
- * @see template_preprocess_menu_local_task()
- */
-#}
-<li{{ attributes.addClass(is_active ? 'is-active') }}>{{ link }}</li>
-";
+        return "{# inline_template_start #}Rate - {{ field_rate }}";
     }
 }
