@@ -1,18 +1,26 @@
 .views-field-field-movies-image {
-  width: 100px;
-  height: auto;
   display: inline-block;
   text-align: center;
 }
 
 .views-col {
-  max-width: 8%;
   margin: 0 auto;
-  margin-right: 8%;
   display: inline-block;
   text-align: center;
+  margin-right: 7%;
 }
 
 .views-col:last-child {
   margin-right: 0;
+}
+
+.films-image {
+  width: 250px;
+  height: 100px;
+}
+
+.views-field-title {
+  font-size: 27px;
+  font-family: Impact,Charcoal, sans-serif;
+  margin-bottom: 3%;
 }
